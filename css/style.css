@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #222222;
+  font-family: Georgia, "Times New Roman", "Microsoft YaHei", "SimSun", serif;
+  font-size: 16px;
+  line-height: 1.68;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 34px 28px 60px;
+}
+
+.site-header {
+  border-bottom: 1px solid #cfcfcf;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 34px;
+  font-weight: normal;
+  color: #111111;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  color: #555555;
+  font-size: 17px;
+}
+
+.navbar {
+  margin: 18px 0 30px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.navbar a {
+  margin-right: 24px;
+  color: #003399;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: normal;
+  color: #003366;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 4px;
+  margin: 0 0 12px;
+}
+
+ul, ol {
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 7px;
+}
+
+a {
+  color: #003399;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.profile {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.profile-text {
+  flex: 1;
+}
+
+.profile-photo {
+  width: 190px;
+  text-align: center;
+}
+
+.profile-photo img {
+  width: 170px;
+  max-width: 100%;
+  border: 1px solid #cccccc;
+  padding: 4px;
+  background: #ffffff;
+}
+
+.photo-note {
+  margin-top: 8px;
+  color: #777777;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.email {
+  font-family: Consolas, "Courier New", monospace;
+}
+
+.more-link {
+  margin-top: 8px;
+}
+
+footer {
+  margin-top: 40px;
+  padding-top: 15px;
+  border-top: 1px solid #cccccc;
+  color: #666666;
+  font-size: 14px;
+}
+
+code {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 90%;
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding: 24px 18px 44px;
+  }
+
+  .profile {
+    display: block;
+  }
+
+  .profile-photo {
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .navbar a {
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 8px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}
