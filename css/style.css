@@ -154,3 +154,19 @@ code {
     font-size: 30px;
   }
 }
+.wechat-qrcode {
+  margin-top: 12px;
+}
+
+.wechat-qrcode img {
+  width: 150px;
+  border: 1px solid #cccccc;
+  padding: 4px;
+  background: #ffffff;
+}
+
+.wechat-qrcode p {
+  margin-top: 6px;
+  color: #555555;
+  font-size: 14px;
+}
